@@ -1,1 +1,1 @@
-# Todo App
+# ToDo app for training
