@@ -1,0 +1,101 @@
+/**
+
+	TodoApp: 0.0.1
+	Flo Würti
+	WD
+
+
+
+**/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: rgb(59, 89, 152);
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #080202;
+}
+
+.page {
+	background: #fff;
+	padding: 50px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+/* Forms & Form fields */
+
+.form-add {
+	padding: 10px;
+	background: rgb(59, 89, 152);
+	margin-bottom: 20px;
+}
+
+.form-remove {
+	background: rgb(59, 89, 152);
+	padding: 10px;
+	margin-bottom: 20px;
+	text-align: right;
+}
+
+.form-element {
+	font-size: 18px;
+	padding: 10px;
+	color: #24A1AE;
+	background: #fefefe;
+	border: solid 1px #725830;
+}
+
+.form-element-entry {
+	width: 50%;
+}
+
+.form-element-time {
+	width: 20%;
+}
+
+.form-element-button {
+	width: 29%;
+}
+
+/* Form List */
+
+.form-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.form-list li:first-child {
+	background: #333333;
+	color: #fff;
+}
+
+.form-list-item {
+	background: #f3f3f3;
+	padding: 15px;
+	color: #725830;
+	margin-bottom: 10px;
+}
+
+.form-list-item-sub {
+	width: 49%;
+	display: inline-block;
+}
+
+.form-list-item-sub-entry {
+
+}
+
+.form-list-item-sub-time {
+	text-align: right;
+}
